@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    color: blue; /* 1 punto */
+  }
+  
+  .mi-clase {
+    background-color: black;
+    color: red; /* 10 puntos */
+  }
+  
+  #mi-id {
+    color: green; /* 100 puntos */
+  }
+  
+  p.mi-clase#mi-id {
+    color: yellow; /* 111 puntos (1 + 10 + 100) */
+  }
+
+  h1 {
+    color: blueviolet;
+  }
+
+  h2 {
+    color: aqua;
+  }
